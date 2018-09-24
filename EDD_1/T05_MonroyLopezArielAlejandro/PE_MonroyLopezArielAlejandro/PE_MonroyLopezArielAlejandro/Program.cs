@@ -11,7 +11,7 @@ namespace PE_MonroyLopezArielAlejandro
         public static void P1()
         {
             int numeroSucecion = 0;
-            Console.WriteLine("Programa que muestra el valor menor y mayor de una sucesion que ingrese el usuario.\n");
+            Console.WriteLine("Programa que muestra el valor menor y mayor de una sucesion que \ningrese el usuario.\n");
             Console.Write("Ingrese cuantos numeros quieres ingresar: ");
             numeroSucecion = int.Parse(Console.ReadLine());
             int[] vector = new int[numeroSucecion];
@@ -31,7 +31,7 @@ namespace PE_MonroyLopezArielAlejandro
         public static void P2()
         {
             int palabras = 0;
-            Console.WriteLine("Programa que invierte el orden de los valores que introdusca el usuario.\n");
+            Console.WriteLine("Programa que invierte el orden de los valores que introdusca \nel usuario.\n");
             Console.Write("Ingrese cuantas palabras quiere: ");
             palabras = int.Parse(Console.ReadLine());
             string[] vector = new string[palabras];
@@ -62,7 +62,7 @@ namespace PE_MonroyLopezArielAlejandro
         {
             int Respuesta = 0;
             double posicionM = 0;
-            Console.WriteLine("Programa que indica cual fue el ultimo mayor valor introducido y cual es su posicion en la sucesion.\n");
+            Console.WriteLine("Programa que indica cual fue el ultimo numero mayor valor introducido \ny cual es su posicion en la sucesion.\n");
             Console.Write("Ingrese cuantos valores desea introducir: ");
             int numeroIngrsos = int.Parse(Console.ReadLine());
             double[] vector = new double[numeroIngrsos];
@@ -115,7 +115,7 @@ namespace PE_MonroyLopezArielAlejandro
         {
             int Respuesta = 0;
             double posicionM = 0;
-            Console.WriteLine("Programa que indica la posicion del primer numero de mayor valor que ingrese el usuario.\n");
+            Console.WriteLine("Programa que indica la posicion del primer numero de mayor valor que \ningrese el usuario.\n");
             Console.Write("Ingrese cuantos valores desea introducir: ");
             int numeroIngrsos = int.Parse(Console.ReadLine());
             double[] vector = new double[numeroIngrsos];
@@ -141,7 +141,7 @@ namespace PE_MonroyLopezArielAlejandro
         {
             int numeroPalabras = 0, numeroLetras = 0;
             string palabra = "";
-            Console.WriteLine("Programa que indica la palabra con mayor cantidad de letras que ingrese el usuario.\n");
+            Console.WriteLine("Programa que indica la palabra con mayor cantidad de letras que \ningrese el usuario.\n");
             Console.Write("Ingrese el numero de palabras que quiere escribir: ");
             numeroPalabras = int.Parse(Console.ReadLine());
             string[] vector = new string[numeroPalabras];
@@ -150,18 +150,23 @@ namespace PE_MonroyLopezArielAlejandro
             {
                 Console.Write("Ingrese la palabra {0}: ", contador + 1);
                 vector[contador] = Console.ReadLine();
-                if (contador > 0)
+            }
+            for (int contad = 0; contad < numeroPalabras; contad++)
+            {
+                if (contad > 0)
                 {
-                    if (vector[contador].Length > vector[contador - 1].Length)
+                    if (vector[contad].Length > vector[contad - 1].Length)
                     {
-                        numeroLetras = contador + 1;
-                        palabra = vector[contador];
+                        numeroLetras = contad + 1;
+                        palabra = vector[contad];
+                        contad = numeroPalabras;
                     }
                 }
-                else if (contador == 0)
+
+                else if (contad == 0)
                 {
-                    numeroLetras = contador + 1;
-                    palabra = vector[contador];
+                    numeroLetras = contad + 1;
+                    palabra = vector[contad];
                 }
             }
             Console.WriteLine("La palabra con mayor cantidad de letras esta en la posicion {0} y es '{1}' ", numeroLetras, palabra);
@@ -185,7 +190,7 @@ namespace PE_MonroyLopezArielAlejandro
                 {
                     do
                     {
-                        Console.Write("\nEl valor introducido no esta en el rango 1 a 100, intente de nuevo ({0}/{1}): ", contador + 1, numeroIngresar);
+                        Console.Write("\nEl valor introducido no esta en el rango 1 a 100\nintente de nuevo ({0}/{1}): ", contador + 1, numeroIngresar);
                         vector[contador] = int.Parse(Console.ReadLine());
                     }
                     while (vector[contador] > 100 || vector[contador] < 1);
@@ -249,7 +254,7 @@ namespace PE_MonroyLopezArielAlejandro
                 Console.Clear();
                 int Opcion = 0;
                 Console.WriteLine("Practicas Evaluativas");
-                Console.Write("Ingrese el numero de la practica que quiera ver primero... \n\nPractica 1 \nPractica 2 " +
+                Console.Write("Ingrese el numero de la practica que quiera ver... \n\nPractica 1 \nPractica 2 " +
                     "\nPractica 3 \nPractica 4 \nPractica 5\nPractica 6\nPractica 7 \nPractica 8\n     ... ");
                 Opcion = int.Parse(Console.ReadLine());
                 switch (Opcion)
@@ -298,7 +303,7 @@ namespace PE_MonroyLopezArielAlejandro
                         break;
                 }
                 Console.Clear();
-                Console.Write("Quiere probar ver otra practica? (Presione '1' para aceptar / presione otra tecla para concluir el programa): ");
+                Console.Write("Quiere probar ver otra practica? \n(Presione '1' para aceptar / presione otra tecla para concluir el programa): ");
                 reinicio =Console.ReadLine();
             }
             while (reinicio == "1");

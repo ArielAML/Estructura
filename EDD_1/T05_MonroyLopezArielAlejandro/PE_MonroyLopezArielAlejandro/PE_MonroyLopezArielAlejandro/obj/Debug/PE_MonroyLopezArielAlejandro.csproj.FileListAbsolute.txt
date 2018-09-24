@@ -5,3 +5,10 @@ C:\Users\backa\source\repos\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlej
 C:\Users\backa\source\repos\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\obj\Debug\PE_MonroyLopezArielAlejandro.csproj.CoreCompileInputs.cache
 C:\Users\backa\source\repos\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\obj\Debug\PE_MonroyLopezArielAlejandro.exe
 C:\Users\backa\source\repos\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\obj\Debug\PE_MonroyLopezArielAlejandro.pdb
+C:\Users\PC\Desktop\Estructura-master\EDD_1\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\bin\Debug\PE_MonroyLopezArielAlejandro.exe.config
+C:\Users\PC\Desktop\Estructura-master\EDD_1\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\bin\Debug\PE_MonroyLopezArielAlejandro.exe
+C:\Users\PC\Desktop\Estructura-master\EDD_1\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\bin\Debug\PE_MonroyLopezArielAlejandro.pdb
+C:\Users\PC\Desktop\Estructura-master\EDD_1\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\obj\Debug\PE_MonroyLopezArielAlejandro.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Estructura-master\EDD_1\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\obj\Debug\PE_MonroyLopezArielAlejandro.exe
+C:\Users\PC\Desktop\Estructura-master\EDD_1\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\obj\Debug\PE_MonroyLopezArielAlejandro.pdb
+C:\Users\PC\Desktop\Estructura-master\EDD_1\PE_MonroyLopezArielAlejandro\PE_MonroyLopezArielAlejandro\obj\Debug\PE_MonroyLopezArielAlejandro.csprojAssemblyReference.cache
