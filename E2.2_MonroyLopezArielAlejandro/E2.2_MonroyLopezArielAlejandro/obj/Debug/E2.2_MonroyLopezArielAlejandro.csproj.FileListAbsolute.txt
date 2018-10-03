@@ -1,0 +1,14 @@
+C:\Users\PC\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\bin\Debug\E2.2_MonroyLopezArielAlejandro.exe.config
+C:\Users\PC\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\bin\Debug\E2.2_MonroyLopezArielAlejandro.exe
+C:\Users\PC\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\bin\Debug\E2.2_MonroyLopezArielAlejandro.pdb
+C:\Users\PC\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\obj\Debug\E2.2_MonroyLopezArielAlejandro.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\obj\Debug\E2.2_MonroyLopezArielAlejandro.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\obj\Debug\E2.2_MonroyLopezArielAlejandro.exe
+C:\Users\PC\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\obj\Debug\E2.2_MonroyLopezArielAlejandro.pdb
+C:\Users\backa\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\bin\Debug\E2.2_MonroyLopezArielAlejandro.exe.config
+C:\Users\backa\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\bin\Debug\E2.2_MonroyLopezArielAlejandro.exe
+C:\Users\backa\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\bin\Debug\E2.2_MonroyLopezArielAlejandro.pdb
+C:\Users\backa\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\obj\Debug\E2.2_MonroyLopezArielAlejandro.csproj.CoreCompileInputs.cache
+C:\Users\backa\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\obj\Debug\E2.2_MonroyLopezArielAlejandro.exe
+C:\Users\backa\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\obj\Debug\E2.2_MonroyLopezArielAlejandro.pdb
+C:\Users\backa\source\repos\E2.2_MonroyLopezArielAlejandro\E2.2_MonroyLopezArielAlejandro\obj\Debug\E2.2_MonroyLopezArielAlejandro.csprojResolveAssemblyReference.cache
