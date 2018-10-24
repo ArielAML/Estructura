@@ -1,0 +1,7 @@
+c:\users\backa\source\repos\E3_3_MonroyLopezArielAlejandrp\E3_3_MonroyLopezArielAlejandrp\obj\Debug\E3_3_MonroyLopezArielAlejandrp.csprojResolveAssemblyReference.cache
+c:\users\backa\source\repos\E3_3_MonroyLopezArielAlejandrp\E3_3_MonroyLopezArielAlejandrp\obj\Debug\E3_3_MonroyLopezArielAlejandrp.csproj.CoreCompileInputs.cache
+c:\users\backa\source\repos\E3_3_MonroyLopezArielAlejandrp\E3_3_MonroyLopezArielAlejandrp\bin\Debug\E3_3_MonroyLopezArielAlejandrp.exe.config
+c:\users\backa\source\repos\E3_3_MonroyLopezArielAlejandrp\E3_3_MonroyLopezArielAlejandrp\bin\Debug\E3_3_MonroyLopezArielAlejandrp.exe
+c:\users\backa\source\repos\E3_3_MonroyLopezArielAlejandrp\E3_3_MonroyLopezArielAlejandrp\bin\Debug\E3_3_MonroyLopezArielAlejandrp.pdb
+c:\users\backa\source\repos\E3_3_MonroyLopezArielAlejandrp\E3_3_MonroyLopezArielAlejandrp\obj\Debug\E3_3_MonroyLopezArielAlejandrp.exe
+c:\users\backa\source\repos\E3_3_MonroyLopezArielAlejandrp\E3_3_MonroyLopezArielAlejandrp\obj\Debug\E3_3_MonroyLopezArielAlejandrp.pdb
