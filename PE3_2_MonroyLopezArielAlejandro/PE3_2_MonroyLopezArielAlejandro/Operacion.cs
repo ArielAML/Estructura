@@ -212,7 +212,7 @@ namespace PE3_2_MonroyLopezArielAlejandro
                             Console.ReadKey();
                         }
                     }
-                    noIniciadas.RemoveAll((x) => x.id == modstatus);
+                    enProceso.RemoveAll((x) => x.id == modstatus);
                     break;
                 case 3:
                     Console.Clear();
@@ -244,7 +244,7 @@ namespace PE3_2_MonroyLopezArielAlejandro
                             Console.ReadKey();
                         }
                     }
-                    noIniciadas.RemoveAll((x) => x.id == modstatus);
+                    terminadas.RemoveAll((x) => x.id == modstatus);
                     break;
             }
         }
