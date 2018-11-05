@@ -8,6 +8,7 @@ namespace PE3_2_MonroyLopezArielAlejandro
 {
     public class Operacion
     {
+        //Inicializo todas las listas y variables que necesito globales para usarlas toda la clase
         Tarea ToDo;
         List<Tarea> noIniciadas = new List<Tarea>();
         List<Tarea> enProceso = new List<Tarea>();
@@ -16,15 +17,15 @@ namespace PE3_2_MonroyLopezArielAlejandro
         public int estatus = 0, noTarea=0, opcion=0, modopc=0;
         public int modstatus, modlista;
 
-        public void verTareas()
+        public void verTareas() //Metodo que despliega las tareas que hay en cada una de las listas
         {
             Console.Clear();
-            Console.WriteLine("TAREAS NO INICIADAS:\n");
-            if (noIniciadas.Count == 0)
+            Console.WriteLine("TAREAS NO INICIADAS:\n"); 
+            if (noIniciadas.Count == 0) //Si la lista de tareas no iniciadas esta vacia, imprime el mensaje 
             {
                 Console.WriteLine("NO HAY TAREAS SIN INICIAR\n");
             }
-            else
+            else //Si la lista tiene elemento(s), imprime cada propiedad de los objetos dentro de esta
             {
                 foreach (var item in noIniciadas)
                 {
@@ -37,12 +38,12 @@ namespace PE3_2_MonroyLopezArielAlejandro
                 }
             }
             Console.ReadKey();
-            Console.WriteLine("TAREAS EN PROCESO: \n");
-            if (enProceso.Count == 0)
+            Console.WriteLine("TAREAS EN PROCESO: \n"); 
+            if (enProceso.Count == 0) //Si la lista de tareas en proceso esta vacia, imprime el mensaje
             {
                 Console.WriteLine("NO HAY TAREAS EN PROCESO\n");
             }
-            else
+            else //Si la lista tiene elemento(s), imprime cada propiedad de los objetos dentro de esta
             {
                 foreach (var item in enProceso)
                 {
@@ -56,11 +57,11 @@ namespace PE3_2_MonroyLopezArielAlejandro
             }
             Console.ReadKey();
             Console.WriteLine("TAREAS TERMINADAS:\n");
-            if (terminadas.Count == 0)
+            if (terminadas.Count == 0) //Si la lista de tareas terminadas esta vacia, imprime el mensaje
             {
                 Console.WriteLine("NO HAY TAREAS TERMINADAS\n");
             }
-            else
+            else //Si la lista tiene elemento(s), imprime cada propiedad de los objetos dentro de esta
             {
                 foreach (var item in terminadas)
                 {
@@ -76,23 +77,23 @@ namespace PE3_2_MonroyLopezArielAlejandro
             
         }
 
-        public void agregarTarea()
+        public void agregarTarea() //Metodo para crear una nueva tarea a la lista que el usuario elija
         {
             Console.Clear();
 
             Tarea ToDo = new Tarea();
-
-            noTarea = noIniciadas.Count + enProceso.Count + terminadas.Count + 1;
+            //Se crea el objeto con todas sus propiedades y se almacena en la lista que corresponda al status
+            noTarea = noIniciadas.Count + enProceso.Count + terminadas.Count + 1; 
             Console.WriteLine("Creando Tarea No.{0}", noTarea);
-            ToDo.id = noTarea;
+            ToDo.id = noTarea; 
             Console.Write("Nombre de la tarea: ");
-            ToDo.nombreTarea = Console.ReadLine();
+            ToDo.nombreTarea = Console.ReadLine(); 
             Console.Write("Descripcion: ");
-            ToDo.descripcionTarea = Console.ReadLine();
+            ToDo.descripcionTarea = Console.ReadLine(); 
             Console.Write("Fecha de inicio: ");
-            ToDo.fechaInicio = Console.ReadLine();
-            do
-            {
+            ToDo.fechaInicio = Console.ReadLine(); 
+            do 
+            { //Se le pregunta al usuario en donde quiere que se almacene la tarea recien creada
                 Console.Write("Estatus:\n1.- No iniciada\n2.- En proceso \n3.- Terminado\n ...: ");
                 estatus = int.Parse(Console.ReadLine());
                 if (estatus == 1)
@@ -114,11 +115,12 @@ namespace PE3_2_MonroyLopezArielAlejandro
                     Console.ReadKey();
                 }
             }
-            while (estatus < 1 && estatus > 3);
+            while (estatus < 1 && estatus > 3); //Repite el ciclo hasta que el usuario elija una de las opciones disponibles
             Console.Write("Descripcion del estatus: ");
             ToDo.descripcionStatus = Console.ReadLine();
             Console.Write("Fecha limite: ");
             ToDo.fechaFinal = Console.ReadLine();
+            //Dependiendo el status que el usuario le haya dado a la tarea, esta se va a su lista correspondiente
             if (estatus ==1)
             {
                 noIniciadas.Add(ToDo);
@@ -135,16 +137,19 @@ namespace PE3_2_MonroyLopezArielAlejandro
 
         public void modificarTarea()
         {
+            //Se resetean las variables
             modopc = 0;
             modstatus = 0;
             modlista = 0;
 
             Console.Clear();
+            //Se le pregunta al usuario en que lista se encuentra la tarea que quiere modificar
             Console.Write("La tarea que quiere modificar esta...\n1.- No iniciada?\n2.- En proceso?\n" +
                 "3.- Terminada?\n ...: ");
             modopc = int.Parse(Console.ReadLine());
-            switch (modopc)
-            {
+            switch (modopc) //Dependiendo la opcion que elija el usuario, se le preguntara cual es el numero de la tarea que busca
+            {               //Si este se encuentra en la lista que seleccione, le pedira que ingrese el status actual de la tarea
+                            //Y una nueva descripcion. Despues eliminara el objeto de la lista en la que estaba
                 case 1:
                     Console.Clear();
                     Console.Write("Ingrese el numero de la tarea: ");
@@ -249,6 +254,7 @@ namespace PE3_2_MonroyLopezArielAlejandro
             do
             {
                 Console.Clear();
+                //Despliega los mensajes de inicio con las opciones que pueda elijir el usuario
                 Console.WriteLine("\t ####Lista de tareas####");
                 Console.Write("\tQue desea realizar?\n\t1.- Ver tareas\n\t2.- Agregar tarea\n\t3.- Modificar tarea\n" +
                     "\t4.- Cerrar el programa\n\t ...: ");
@@ -256,23 +262,23 @@ namespace PE3_2_MonroyLopezArielAlejandro
                 switch (opcion)
                 {
                     case 1:
-                        verTareas();
+                        verTareas(); //Ejecuta el metodo para ver las listas
                         break;
                     case 2:
-                        agregarTarea();
+                        agregarTarea(); //Ejecuta el metodo para crear un nuevo objeto y almacenarlo en una lista
                         break;
                     case 3:
-                        modificarTarea();
+                        modificarTarea(); //Ejecuta el metodo para mandar una tarea de una lista a otra
                         break;
                     case 4:
-                        Environment.Exit(0);
+                        Environment.Exit(0); //Cierra el programa
                         break;
                     default:
-                        Console.WriteLine("La opcion ingresada no es valida, porfavor intente de nuevo");
+                        Console.WriteLine("La opcion ingresada no es valida, porfavor intente de nuevo"); //Mensaje de error
                         break;
                 }
             }
-            while (opcion != 4);
+            while (opcion != 4); //Mientras la opcion no sea 4, el menu se repite
         }
     }
 }
