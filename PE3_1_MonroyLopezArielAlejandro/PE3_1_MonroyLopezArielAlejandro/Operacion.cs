@@ -9,6 +9,7 @@ namespace PE3_1_MonroyLopezArielAlejandro
 {
     public class Operacion
     {
+        //Listas y variables globales que utilizare en el transcurso de la clase
         Aro rueda;
         List<int> ordenar = new List<int>();
         Stack<Aro> torre1 = new Stack<Aro>();
@@ -22,62 +23,44 @@ namespace PE3_1_MonroyLopezArielAlejandro
         public int contador = 0;
         public bool numErr = true;
 
-        public void menu()
+        public void menu()//Despliego los mensajes de bienvenida y la primera instruccion
         {
             Console.WriteLine("\t=====Torres de Hanoi=====");
             Console.Write("Cuantos aros desea que tenga la torre? ");
             cantidad = int.Parse(Console.ReadLine());
-            acomodo();
-            //Console.Write("Elija la opcion que quiera: \n#1 - Mostrar paso a paso\n#2 - Mostrar termino\n ...: ");
-            //opcion = int.Parse(Console.ReadLine());
-            resolver();
+            acomodo();//Ejecuto el metodo para acomodar los aros
+            resolver();//Ejecuto el metodo para acomodar los aros de mayor a menor en la torre 3
             Console.ReadKey();
         }
 
-        public void acomodo()
+        public void acomodo()//Metodo para ordenar los valores dentro de la torre 1
         {
             for (int i = 0; i < cantidad; i++)
             {
-                //Console.Write("Ingrese el numero del aro #{0}: ", i+1);
-                //numero = int.Parse(Console.ReadLine());
-                //if (ordenar.Count == 0)
-                //{
-                    ordenar.Add(i+1);
-                //}
-                //else
-                //{
-                //    foreach (var item in ordenar)
-                //    {
-                //        while (item == numero)
-                //        {
-                //            Console.WriteLine("Ya hay un aro de este tamanio, ingrese un tamanio diferente: ");
-                //            numero = int.Parse(Console.ReadLine());
-                //        }
-                //    }
-                //    ordenar.Add(numero);
-                //}
+                 ordenar.Add(i+1); 
             }
             
             ordenar = (from p in ordenar orderby p descending select p).ToList();
-            foreach (var item in ordenar)
+            foreach (var item in ordenar) //Ordena los elementos de una lista a la pila torre1
             {
                 Aro rueda = new Aro();
                 rueda.longitud = item;
                 torre1.Push(rueda);
                 comparar.Push(rueda);
             }
+            //Le doy valores iniciales a las otra torres para evitar errores de que las torres esten vacias
             Aro borrar = new Aro();
             borrar.longitud = 0;
             torre2.Push(borrar);
             torre3.Push(borrar);
             Console.WriteLine("\nTorre 1: ");
-            foreach (var bala in torre1)
+            foreach (var bala in torre1)//Muestra que efectivamente la torre 1 almaceno los valores
             {
                 Console.WriteLine(bala.longitud);
             }
         }
 
-        public void resolver()
+        public void resolver() //Utiliza un algoritmo para resolver parte por parte el proceso sin tener error
         {
             while(torre3.Count!=cantidad)
             {
@@ -155,6 +138,7 @@ namespace PE3_1_MonroyLopezArielAlejandro
                     }
                 }
             }
+            //Cuando termine el proceso, mostrara todos los elementos dentro de la torre 3 y tambien la cantidad de movimientos que se tomaron
             Console.WriteLine("Proceso terminado: \nTorre3:\n");
             foreach (var item in torre3)
             {
