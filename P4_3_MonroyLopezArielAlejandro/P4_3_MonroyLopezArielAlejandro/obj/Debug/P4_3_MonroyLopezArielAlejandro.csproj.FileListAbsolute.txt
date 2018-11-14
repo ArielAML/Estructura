@@ -1,0 +1,7 @@
+c:\users\backa\source\repos\P4_3_MonroyLopezArielAlejandro\P4_3_MonroyLopezArielAlejandro\bin\Debug\P4_3_MonroyLopezArielAlejandro.exe.config
+c:\users\backa\source\repos\P4_3_MonroyLopezArielAlejandro\P4_3_MonroyLopezArielAlejandro\bin\Debug\P4_3_MonroyLopezArielAlejandro.exe
+c:\users\backa\source\repos\P4_3_MonroyLopezArielAlejandro\P4_3_MonroyLopezArielAlejandro\bin\Debug\P4_3_MonroyLopezArielAlejandro.pdb
+c:\users\backa\source\repos\P4_3_MonroyLopezArielAlejandro\P4_3_MonroyLopezArielAlejandro\obj\Debug\P4_3_MonroyLopezArielAlejandro.csproj.CoreCompileInputs.cache
+c:\users\backa\source\repos\P4_3_MonroyLopezArielAlejandro\P4_3_MonroyLopezArielAlejandro\obj\Debug\P4_3_MonroyLopezArielAlejandro.exe
+c:\users\backa\source\repos\P4_3_MonroyLopezArielAlejandro\P4_3_MonroyLopezArielAlejandro\obj\Debug\P4_3_MonroyLopezArielAlejandro.pdb
+C:\Users\backa\source\repos\P4_3_MonroyLopezArielAlejandro\P4_3_MonroyLopezArielAlejandro\obj\Debug\P4_3_MonroyLopezArielAlejandro.csprojResolveAssemblyReference.cache
