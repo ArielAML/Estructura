@@ -1,0 +1,7 @@
+c:\users\backa\source\repos\E4_MonroyLopezArielAlejandro\E4_MonroyLopezArielAlejandro\bin\Debug\E4_MonroyLopezArielAlejandro.exe.config
+c:\users\backa\source\repos\E4_MonroyLopezArielAlejandro\E4_MonroyLopezArielAlejandro\bin\Debug\E4_MonroyLopezArielAlejandro.exe
+c:\users\backa\source\repos\E4_MonroyLopezArielAlejandro\E4_MonroyLopezArielAlejandro\bin\Debug\E4_MonroyLopezArielAlejandro.pdb
+c:\users\backa\source\repos\E4_MonroyLopezArielAlejandro\E4_MonroyLopezArielAlejandro\obj\Debug\E4_MonroyLopezArielAlejandro.csprojResolveAssemblyReference.cache
+c:\users\backa\source\repos\E4_MonroyLopezArielAlejandro\E4_MonroyLopezArielAlejandro\obj\Debug\E4_MonroyLopezArielAlejandro.csproj.CoreCompileInputs.cache
+c:\users\backa\source\repos\E4_MonroyLopezArielAlejandro\E4_MonroyLopezArielAlejandro\obj\Debug\E4_MonroyLopezArielAlejandro.exe
+c:\users\backa\source\repos\E4_MonroyLopezArielAlejandro\E4_MonroyLopezArielAlejandro\obj\Debug\E4_MonroyLopezArielAlejandro.pdb
