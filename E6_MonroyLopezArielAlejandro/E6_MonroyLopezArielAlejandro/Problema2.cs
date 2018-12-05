@@ -31,7 +31,7 @@ namespace E6_MonroyLopezArielAlejandro
             RadixSort(obtener());
         }
 
-        public int[] obtener()
+        public int[] obtener() //Metodo tipo vector donde se almacenan 80 numeros al azar del 1 al 250
         {
             int[] n = new int[80];
             Random numero = new Random();
